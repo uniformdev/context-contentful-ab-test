@@ -1,0 +1,31 @@
+{
+  "project": {
+    "pz": {
+      "sig": {
+        "welcome": {
+          "str": 100,
+          "cap": 100,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "welcome"
+                },
+                "queryName": "utm_campaign"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "test": {
+      "HomepageHeroTest": {}
+    }
+  }
+}
